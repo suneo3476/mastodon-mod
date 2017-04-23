@@ -10,9 +10,9 @@
 
 (function() {
     'use strict';
-    const HOME = 0,
-             LTL = 2;
+    const HOME = 0;
+//             LTL = 2;
     const postform = document.querySelector( ".drawer__inner div:nth-child(3)" );
-    const ltl = document.querySelectorAll('.column-header')[LTL];
+    const ltl = document.querySelectorAll('.column-header')[HOME];
     ltl.parentNode.insertBefore(postform, ltl);
 })();
